@@ -11,9 +11,6 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-####################
-# find user
-
 
 file=open('/home/ece-student/Desktop/601/1_1.txt','w')
 apple_user = []
@@ -27,10 +24,6 @@ for tweet in tweepy.Cursor(api.search,q='Apple').items(20):
 file.close()
 print("ok")
 print(apple_user)
-
-#########################
-#get_user_tweet()
-
 
 file=open('/home/ece-student/Desktop/601/2.txt','w')
 i = 0 
