@@ -13,7 +13,7 @@ api = tweepy.API(auth)
 
 ####################
 #  find_user():
-####################
+
 
 file=open('/home/ece-student/Desktop/601/1_1.txt','w')
 apple_user = []
@@ -29,8 +29,9 @@ print("ok")
 print(apple_user)
 
 #########################
-#get_user_tweet():
-########################
+#get_user_tweet()
+
+
 file=open('/home/ece-student/Desktop/601/2.txt','w')
 i = 0 
 for i in range(len(apple_user)):
