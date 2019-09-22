@@ -12,7 +12,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 ####################
-#  find_user():
+# find user
 
 
 file=open('/home/ece-student/Desktop/601/1_1.txt','w')
